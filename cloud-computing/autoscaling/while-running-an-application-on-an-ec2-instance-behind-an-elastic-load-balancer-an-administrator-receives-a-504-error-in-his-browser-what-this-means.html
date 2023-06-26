@@ -22,9 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>While running an application on an EC2 instance behind an Elastic Load Balancer, an administrator receives a 504 error in his browser. What this means?
 </title>
-<meta name="description" content="HTTP 504: Gateway timeout Description: Indicates that the load balancer closed a connection because a request did not complete within the idle timeout period. Cause 1: The application takes longer to respond than the configured idle timeout. Solution 1: Monitor the HTTPCode ELB 5XX and Latency metrics.When the backend instance closes a TCP connection to the load balancer before it reaches its idle timeout value, an HTTP 504 error might display. To resolve this, activate keep-alive settings on your backend instances, and then set the keep-alive timeout to a value greater than the load balancers idle timeout.If an instance fails these health checks, it is marked unhealthy and is terminated while Amazon EC2 Auto Scaling launches a new replacement instance.The 504 (Gateway Timeout) status code indicates that the server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request. The error may be a temporary occurrence due to too much traffic toward the server or site. ">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-<meta name="keywords" content="While running an application on an EC2 instance behind an Elastic Load Balancer, an administrator receives a 504 error in his browser. What this means?">
 </head>
 <body data-rsssl="1" class="page-template-default custom-background custom-background-white custom-font-enabled single-author" style="padding: 0px 0px 154px;">
 <div id="page" class="site" style="height: auto !important;">

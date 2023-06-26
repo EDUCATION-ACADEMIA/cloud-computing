@@ -22,9 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Which of the following HTTP methods are idempotent operations?
 </title>
-<meta name="description" content="The following HTTP methods are idempotent: GET, HEAD, OPTIONS, TRACE, PUT and DELETE. All safe HTTP methods are idempotent but PUT and DELETE are idempotent but not safe. Note that idempotency does not mean that the server has to respond in the same way on each request.DELETE is an idempotent method because consecutive similar requests wouldnt change the delete state. The first call of a DELETE may return a 200 (ok), but additional DELETE calls will likely return a 404 (Not Found). The response is different after the first request but there is no change of state.Idempotent Operations. GET, HEAD, and OPTION are clearly idempotent as they only read data, but dont create, update or delete any resources. PUT is idempotent as it updates a resource or creates a new one if it doesnt exist. If we sent the same update multiple times, the resource shouldnt change.GET, HEAD, PUT, DELETE, OPTIONS, and TRACE are idempotent methods, meaning they are safe to be retried or executed multiple times without causing unintended side effects. In contrast, POST and PATCH are generally considered non-idempotent, as their outcomes may vary with each request. ">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-<meta name="keywords" content="Which of the following HTTP methods are idempotent operations?">
 </head>
 <body data-rsssl="1" class="page-template-default custom-background custom-background-white custom-font-enabled single-author" style="padding: 0px 0px 154px;">
 <div id="page" class="site" style="height: auto !important;">

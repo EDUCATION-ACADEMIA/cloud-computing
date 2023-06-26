@@ -22,9 +22,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>What is the response code to delete a resource?
 </title>
-<meta name="description" content="Responses. If a DELETE method is successfully applied, there are several response status codes possible: A 202 ( Accepted ) status code if the action will likely succeed but has not yet been enacted. A 204 ( No Content ) status code if the action has been enacted and no further information is to be supplied.The HTTP 204 No Content success status response code indicates that a request has succeeded, but that the client doesnt need to navigate away from its current page. This might be used, for example, when implementing save and continue editing functionality for a wiki site.If you DELETE something that doesnt exist, you should just return a 204 (even if the resource never existed). The client wanted the resource gone and it is gone. Returning a 404 is exposing internal processing that is unimportant to the client and will result in an unnecessary error condition.10.2.5 204 No Content The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation. The response MAY include new or updated metainformation in the form of entity-headers, which if present SHOULD be associated with the requested variant.A successful response of DELETE requests SHOULD be an HTTP response code 200 (OK) if the response includes an entity describing the status. ">
 <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-<meta name="keywords" content="What is the response code to delete a resource?">
 </head>
 <body data-rsssl="1" class="page-template-default custom-background custom-background-white custom-font-enabled single-author" style="padding: 0px 0px 154px;">
 <div id="page" class="site" style="height: auto !important;">
